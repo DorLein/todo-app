@@ -10,7 +10,7 @@ function Todoitem() {
           <div className={styles.circle}></div>
           <form>  
             <input type="text" placeholder="Create a new todo ..." /><br></br>
-            <input type="checkbox"></input>
+            <input type="checkbox" name="todo" value="todo"/>
             <input type ="text" placeholder="Todo created" />
           </form>
         </div>
